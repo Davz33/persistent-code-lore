@@ -54,7 +54,7 @@ impl Config {
         // Now we build our configuration struct, reading from environment variables
         // and falling back to sensible defaults if something isn't set
         Ok(Config {
-            app_name: env::var("APP_NAME").unwrap_or_else(|_| "chat-history-consolidator".to_string()),
+            app_name: env::var("APP_NAME").unwrap_or_else(|_| "persistent-code-lore".to_string()),
             output_dir: env::var("OUTPUT_DIR").unwrap_or_else(|_| ".knowledge".to_string()),
             output_filename: env::var("OUTPUT_FILENAME").unwrap_or_else(|_| "chat-history-consolidated.md".to_string()),
             db_type: env::var("DB_TYPE").unwrap_or_else(|_| "sqlite".to_string()),

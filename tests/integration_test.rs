@@ -1,6 +1,3 @@
-use std::fs;
-use std::path::Path;
-
 #[tokio::test]
 async fn test_config_loading() {
     // Test that configuration can be loaded
@@ -8,7 +5,7 @@ async fn test_config_loading() {
     assert!(config.is_ok());
     
     let config = config.unwrap();
-    assert_eq!(config.app_name, "chat-history-consolidator");
+    assert_eq!(config.app_name, "persistent-code-lore");
     assert_eq!(config.output_dir, ".knowledge");
 }
 
@@ -45,3 +42,4 @@ async fn test_markdown_generation() {
     assert!(markdown.contains("# Chat History - Consolidated"));
     assert!(markdown.contains("Test Session"));
 }
+
