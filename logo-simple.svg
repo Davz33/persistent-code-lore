@@ -1,0 +1,58 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letter 'p' -->
+  <g fill="#2C3E50">
+    <rect x="20" y="20" width="6" height="40" rx="2"/>
+    <rect x="20" y="20" width="18" height="6" rx="2"/>
+    <rect x="20" y="32" width="18" height="6" rx="2"/>
+    <rect x="32" y="26" width="6" height="6" rx="2"/>
+  </g>
+  
+  <!-- Letter 'c' -->
+  <g fill="#34495E">
+    <path d="M 60 20 Q 60 20 68 20 L 78 20 Q 86 20 86 28 L 86 52 Q 86 60 78 60 L 68 60 Q 60 60 60 52 Z" rx="2"/>
+  </g>
+  
+  <!-- Rust-inspired 'R' -->
+  <g transform="translate(140, 40)">
+    <!-- R body -->
+    <rect x="-15" y="-25" width="8" height="50" fill="#CE422B" rx="2"/>
+    <rect x="-7" y="-25" width="16" height="8" fill="#CE422B" rx="2"/>
+    <rect x="-7" y="-11" width="16" height="8" fill="#CE422B" rx="2"/>
+    
+    <!-- R diagonal -->
+    <path d="M 1 -11 L 12 20 L 6 20 L 0 0" fill="#CE422B"/>
+    
+    <!-- Gear teeth (Rust style) -->
+    <g fill="#CE422B" opacity="0.8">
+      <!-- Top teeth -->
+      <rect x="-20" y="-30" width="2" height="8" rx="1"/>
+      <rect x="-12" y="-32" width="2" height="8" rx="1"/>
+      <rect x="-4" y="-30" width="2" height="8" rx="1"/>
+      <rect x="4" y="-32" width="2" height="8" rx="1"/>
+      <rect x="12" y="-30" width="2" height="8" rx="1"/>
+      
+      <!-- Bottom teeth -->
+      <rect x="-20" y="22" width="2" height="8" rx="1"/>
+      <rect x="-12" y="24" width="2" height="8" rx="1"/>
+      <rect x="-4" y="22" width="2" height="8" rx="1"/>
+      <rect x="4" y="24" width="2" height="8" rx="1"/>
+      <rect x="12" y="22" width="2" height="8" rx="1"/>
+      
+      <!-- Side teeth -->
+      <rect x="-28" y="-12" width="8" height="2" rx="1"/>
+      <rect x="-28" y="-4" width="8" height="2" rx="1"/>
+      <rect x="20" y="-12" width="8" height="2" rx="1"/>
+      <rect x="20" y="-4" width="8" height="2" rx="1"/>
+    </g>
+    
+    <!-- Center hub -->
+    <circle cx="0" cy="0" r="6" fill="white"/>
+    <circle cx="0" cy="0" r="3" fill="#CE422B"/>
+  </g>
+  
+  <!-- Code brackets -->
+  <g fill="#7F8C8D" opacity="0.5" font-family="monospace" font-size="14">
+    <text x="10" y="25">{</text>
+    <text x="185" y="25">}</text>
+  </g>
+</svg>
