@@ -3,7 +3,7 @@ use clap::Parser;
 use std::fs;
 use std::path::Path;
 
-use chat_history_consolidator::{Config, ChatExtractor, MarkdownGenerator, ComposerData, ChatGeneration, ChatPrompt};
+use chat_history_consolidator::{Config, ChatExtractor, MarkdownGenerator};
 
 /// Command-line interface for the persistent code lore tool.
 /// This struct defines all the command-line arguments that users can pass
