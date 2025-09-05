@@ -113,7 +113,7 @@ jobs:
           files: |
             ./release-assets/*
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
   notify-completion:
     name: Notify Release Complete
